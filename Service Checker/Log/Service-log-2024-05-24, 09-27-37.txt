@@ -1,0 +1,2 @@
+Service: VSS is currently Stopped, should be Running.
+Action was successfull! VSS is now Running
