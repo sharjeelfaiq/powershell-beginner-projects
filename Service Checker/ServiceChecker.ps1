@@ -1,9 +1,9 @@
-Install-Package -Name 'MimeKit' -Source "https://www.nuget.org/api/v2" -SkipDependcies
-Install-Package -Name 'MailKit' -Source "https://www.nuget.org/api/v2" -SkipDependcies
+Install-Package -Name 'MimeKit' -Source "https://www.nuget.org/api/v2" -SkipDependencies
+Install-Package -Name 'MailKit' -Source "https://www.nuget.org/api/v2" -SkipDependencies
 
 Add-Type -Path "C:\Program Files (x86)\PackageManagement\NuGet\Packages\MimeKit.4.6.0\lib\netstandard2.0\MimeKit.dll"
 
-Add-Type -Path "C:\Program Files (x86)\PackageManagement\NuGet\Packages\MailKit.4.6.0\lib\netstandard2.0\MailKit.dll"6
+Add-Type -Path "C:\Program Files (x86)\PackageManagement\NuGet\Packages\MailKit.4.6.0\lib\netstandard2.0\MailKit.dll"
 
 $SMTP = New-Object Mailkit.Net.Smtp.SmtpClient
 $SMTP
